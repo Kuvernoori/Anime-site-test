@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+}
+
+.card {
+   background-color: #2b2b2b;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 60px auto;
+   max-width: 700px;
+   text-align: center;
+   
+}
+
+img {
+    width:60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.square {
+    
+    display: inline-block;
+    background-color: #2b2b2b;
+    border: 3px solid #ff4949;
+    border-radius:1px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -30px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+.square span{
+    font-size:24px;
+    color:#ff4949;
+    font-weight: bold;
+}
+

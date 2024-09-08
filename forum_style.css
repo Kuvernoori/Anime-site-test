@@ -1,28 +1,27 @@
-/* Основные стили */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Светло-серый фон */
+    background-color: #f9f9f9; 
     margin: 0;
     padding: 0;
     color: #333;
 }
 
-/* Хэдер */
+
 header {
-    background-color: #00509e; /* Темно-синий хэдер */
+    background-color: #00509e; 
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    color: #ffffff; /* Белый текст в хэдере */
+    color: #ffffff; 
     font-size: 2.5rem;
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-/* Навигация */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,14 +35,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff; /* Белый текст в навигации */
+    color: #ffffff; 
     font-weight: bold;
 }
 
-/* Основной контент */
+
 main {
     padding: 20px;
-    background-color: #ffffff; /* Белый фон для основной части */
+    background-color: #ffffff; 
 }
 
 #recent-discussions {
@@ -51,19 +50,19 @@ main {
 }
 
 h2 {
-    color: #333333; /* Темно-серый текст заголовков */
+    color: #333333;
     font-size: 2rem;
-    border-bottom: 2px solid #00509e; /* Синяя линия под заголовком */
+    border-bottom: 2px solid #00509e; 
     padding-bottom: 10px;
 }
 
-/* Обсуждения */
+
 .discussion {
-    background-color: #ffffff; /* Белый фон для блоков обсуждения */
+    background-color: #ffffff; 
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .discussion-header {
@@ -74,7 +73,7 @@ h2 {
 
 .discussion-header h3 {
     margin: 0;
-    color: #00509e; /* Темно-синий заголовок обсуждения */
+    color: #00509e; 
 }
 
 .discussion-header .like-button {
@@ -86,13 +85,13 @@ h2 {
 }
 
 .discussion-header .like-button:hover {
-    color: #00509e; /* Темно-синий при наведении */
+    color: #00509e; 
 }
 
-/* Комментарии */
+
 .comments {
     display: none;
-    background-color: #f0f0f0; /* Светло-серый фон для комментариев */
+    background-color: #f0f0f0;
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
@@ -120,7 +119,7 @@ textarea {
 }
 
 .comment-button {
-    background-color: #00509e; /* Темно-синий цвет кнопки */
+    background-color: #00509e; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -130,12 +129,12 @@ textarea {
 }
 
 .comment-button:hover {
-    background-color: #003366; /* Темнее при наведении */
+    background-color: #003366; 
 }
 
-/* Футер */
+
 footer {
-    background-color: #00509e; /* Темно-синий футер */
+    background-color: #00509e; 
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -144,12 +143,12 @@ footer {
 
 footer p {
     margin: 0;
-    color: #ffffff; /* Белый текст в футере */
+    color: #ffffff; 
 }
 
-/* Ссылки комментариев */
+
 .toggle-comments {
-    color: #00509e; /* Темно-синяя ссылка для комментариев */
+    color: #00509e; 
     text-decoration: none;
     cursor: pointer;
 }
