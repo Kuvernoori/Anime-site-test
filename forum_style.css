@@ -1,0 +1,159 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Светло-серый фон */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Хэдер */
+header {
+    background-color: #00509e; /* Темно-синий хэдер */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #ffffff; /* Белый текст в хэдере */
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Навигация */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Белый текст в навигации */
+    font-weight: bold;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Белый фон для основной части */
+}
+
+#recent-discussions {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333333; /* Темно-серый текст заголовков */
+    font-size: 2rem;
+    border-bottom: 2px solid #00509e; /* Синяя линия под заголовком */
+    padding-bottom: 10px;
+}
+
+/* Обсуждения */
+.discussion {
+    background-color: #ffffff; /* Белый фон для блоков обсуждения */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.discussion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discussion-header h3 {
+    margin: 0;
+    color: #00509e; /* Темно-синий заголовок обсуждения */
+}
+
+.discussion-header .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.discussion-header .like-button:hover {
+    color: #00509e; /* Темно-синий при наведении */
+}
+
+/* Комментарии */
+.comments {
+    display: none;
+    background-color: #f0f0f0; /* Светло-серый фон для комментариев */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.comments h4 {
+    margin-top: 0;
+}
+
+.comments ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comments li {
+    padding: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.comment-button {
+    background-color: #00509e; /* Темно-синий цвет кнопки */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comment-button:hover {
+    background-color: #003366; /* Темнее при наведении */
+}
+
+/* Футер */
+footer {
+    background-color: #00509e; /* Темно-синий футер */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff; /* Белый текст в футере */
+}
+
+/* Ссылки комментариев */
+.toggle-comments {
+    color: #00509e; /* Темно-синяя ссылка для комментариев */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toggle-comments:hover {
+    text-decoration: underline;
+}

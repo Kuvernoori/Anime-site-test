@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Forum</title>
+    <link rel="stylesheet" href="forum_style.css">
+</head>
+<body>
+<header>
+    <h1>Anime Discussion Forum</h1>
+    <nav>
+        <ul>
+            <li><a href="#recent-discussions">Recent Discussions</a></li>
+            <li><a href="#contact">Contact Administration</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="recent-discussions">
+        <h2>Recent Discussions</h2>
+
+        <article class="discussion">
+            <div class="discussion-header">
+                <h3>Discussion 1: New Anime Season</h3>
+                <button class="like-button">👍 <span>0</span></button>
+            </div>
+            <p>Discussion about the upcoming anime season and top recommendations...</p>
+            <a href="#" class="toggle-comments">Show Comments (2)</a>
+            <div class="comments">
+                <h4>Comments</h4>
+                <ul>
+                    <li>User1: "I'm so excited for the new Attack on Titan season!"</li>
+                    <li>User2: "Don't forget about Jujutsu Kaisen. It's going to be epic!"</li>
+                </ul>
+                <textarea placeholder="Add a comment"></textarea>
+                <button class="comment-button">Post Comment</button>
+            </div>
+        </article>
+
+        <article class="discussion">
+            <div class="discussion-header">
+                <h3>Discussion 2: Best Anime of 2024</h3>
+                <button class="like-button">👍 <span>0</span></button>
+            </div>
+            <p>Which anime should be crowned the best of 2024? Share your thoughts...</p>
+            <a href="#" class="toggle-comments">Show Comments (3)</a>
+            <div class="comments">
+                <h4>Comments</h4>
+                <ul>
+                    <li>User3: "My vote goes to Demon Slayer, hands down!"</li>
+                    <li>User4: "Chainsaw Man is definitely in the running too."</li>
+                    <li>User5: "No way, One Piece still reigns supreme!"</li>
+                </ul>
+                <textarea placeholder="Add a comment"></textarea>
+                <button class="comment-button">Post Comment</button>
+            </div>
+        </article>
+
+        <article class="discussion">
+            <div class="discussion-header">
+                <h3>Discussion 3: Favorite Characters of All Time</h3>
+                <button class="like-button">👍 <span>0</span></button>
+            </div>
+            <p>Who are your top anime characters of all time and why? Let's discuss...</p>
+            <a href="#" class="toggle-comments">Show Comments (1)</a>
+            <div class="comments">
+                <h4>Comments</h4>
+                <ul>
+                    <li>User6: "Levi from Attack on Titan is the best, no contest."</li>
+                </ul>
+                <textarea placeholder="Add a comment"></textarea>
+                <button class="comment-button">Post Comment</button>
+            </div>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Administration</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Anime Forum. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
