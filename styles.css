@@ -18,6 +18,12 @@ header a {
     font-weight: bold;
     margin: 0 15px;
 }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
 header .logo {
     font-size: 24px;
     font-weight: bold;

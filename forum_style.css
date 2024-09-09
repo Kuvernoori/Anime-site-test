@@ -6,7 +6,12 @@ body {
     color: #333;
 }
 
-
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
 header {
     background-color: #00509e; 
     padding: 20px;
