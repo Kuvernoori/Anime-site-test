@@ -11,35 +11,34 @@
    text-align: center;
    
 }
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-}
+
 img {
     width:60%;
     border-radius: 10px;
     margin-bottom: 20px;
 
 }
-.square {
-    
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.number-circle {
     display: inline-block;
     background-color: #2b2b2b;
-    border: 3px solid #ff4949;
-    border-radius:1px;
-    width: 50px;
-    height: 50px;
+    border: 2px solid #DC143C;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
     position: relative;
     top: -30px;
-    line-height: 45px;
-    margin: 0 auto;
 }
-
-.square span{
-    font-size:24px;
-    color:#ff4949;
+.number-circle span {
+    font-size: 24px;
+    color: #DC143C;
     font-weight: bold;
 }
 

@@ -4,95 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Forum</title>
-    <link rel="stylesheet" href="forum_style.css">
 </head>
 <body>
+
 <header>
-    <h1>Anime Discussion Forum</h1>
-    <nav>
-        <ul>
-            <li><a href="#recent-discussions">Recent Discussions</a></li>
-            <li><a href="#contact">Contact Administration</a></li>
-        </ul>
+    <h1 style="font-family: Arial, sans-serif; text-align: center; background-color: #333; color: white; padding: 10px;">Anime Discussion Forum</h1>
+    <nav style="text-align: center; background-color: #444; padding: 10px;">
+        <a href="#recent-discussions" style="color: white; text-decoration: none; margin: 0 15px;">Recent Discussions</a>
+        <a href="#contact" style="color: white; text-decoration: none; margin: 0 15px;">Contact Administration</a>
     </nav>
 </header>
-<main>
+
+<main style="padding: 20px;">
+
     <section id="recent-discussions">
         <h2>Recent Discussions</h2>
 
-        <article class="discussion">
-            <div class="discussion-header">
-                <h3>Discussion 1: New Anime Season</h3>
-                <button class="like-button">👍 <span>0</span></button>
+        <article style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9;">
+            <div>
+                <h3>New Anime Season</h3>
+                <button style="border: none; background: none; cursor: pointer; font-size: 16px;"> <span>0</span></button>
             </div>
             <p>Discussion about the upcoming anime season and top recommendations...</p>
-            <a href="#" class="toggle-comments">Show Comments (2)</a>
-            <div class="comments">
+            <a href="#" style="color: blue; text-decoration: none;">Show Comments (2)</a>
+            <div>
                 <h4>Comments</h4>
-                <ul>
+                <ul style="list-style-type: none; padding: 0;">
                     <li>User1: "I'm so excited for the new Attack on Titan season!"</li>
                     <li>User2: "Don't forget about Jujutsu Kaisen. It's going to be epic!"</li>
                 </ul>
-                <textarea placeholder="Add a comment"></textarea>
-                <button class="comment-button">Post Comment</button>
+                <textarea placeholder="Add a comment" rows="4" cols="50" style="width: 100%;"></textarea><br>
+                <button style="background-color: #444; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">Post Comment</button>
             </div>
         </article>
 
-        <article class="discussion">
-            <div class="discussion-header">
-                <h3>Discussion 2: Best Anime of 2024</h3>
-                <button class="like-button">👍 <span>0</span></button>
+        <article style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9;">
+            <div>
+                <h3>Best Anime of 2024</h3>
+                <button style="border: none; background: none; cursor: pointer; font-size: 16px;"> <span>0</span></button>
             </div>
             <p>Which anime should be crowned the best of 2024? Share your thoughts...</p>
-            <a href="#" class="toggle-comments">Show Comments (3)</a>
-            <div class="comments">
+            <a href="#" style="color: blue; text-decoration: none;">Show Comments (3)</a>
+            <div>
                 <h4>Comments</h4>
-                <ul>
+                <ul style="list-style-type: none; padding: 0;">
                     <li>User3: "My vote goes to Demon Slayer, hands down!"</li>
                     <li>User4: "Chainsaw Man is definitely in the running too."</li>
                     <li>User5: "No way, One Piece still reigns supreme!"</li>
                 </ul>
-                <textarea placeholder="Add a comment"></textarea>
-                <button class="comment-button">Post Comment</button>
+                <textarea placeholder="Add a comment" rows="4" cols="50" style="width: 100%;"></textarea><br>
+                <button style="background-color: #444; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">Post Comment</button>
             </div>
         </article>
 
-        <article class="discussion">
-            <div class="discussion-header">
-                <h3>Discussion 3: Favorite Characters of All Time</h3>
-                <button class="like-button">👍 <span>0</span></button>
+        <article style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9;">
+            <div>
+                <h3>Favorite Characters of All Time</h3>
+                <button style="border: none; background: none; cursor: pointer; font-size: 16px;"> <span>0</span></button>
             </div>
             <p>Who are your top anime characters of all time and why? Let's discuss...</p>
-            <a href="#" class="toggle-comments">Show Comments (1)</a>
-            <div class="comments">
+            <a href="#" style="color: blue; text-decoration: none;">Show Comments (1)</a>
+            <div>
                 <h4>Comments</h4>
-                <ul>
+                <ul style="list-style-type: none; padding: 0;">
                     <li>User6: "Levi from Attack on Titan is the best, no contest."</li>
                 </ul>
-                <textarea placeholder="Add a comment"></textarea>
-                <button class="comment-button">Post Comment</button>
+                <textarea placeholder="Add a comment" rows="4" cols="50" style="width: 100%;"></textarea><br>
+                <button style="background-color: #444; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">Post Comment</button>
             </div>
         </article>
     </section>
 
     <section id="contact">
         <h2>Contact Administration</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+        <form action="submit_form.php" method="post" style="border: 1px solid #ddd; padding: 15px; background-color: #f9f9f9;">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc;"><br>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc;"><br>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px; border: 1px solid #ccc;"></textarea><br>
 
-            <button type="submit">Send</button>
+            <button type="submit" style="background-color: #444; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">Send</button>
         </form>
     </section>
 </main>
-<footer>
+
+<footer style="background-color: #333; color: white; text-align: left; padding: 10px;">
     <p>&copy; 2024 Anime Forum. All rights reserved.</p>
+    <p><i>Astana IT University || SE-2329</i></p>
+    <p>Sanzhar Berkamalov | Arsen Tinalin | Altair Aitymov</p>
 </footer>
 
 </body>

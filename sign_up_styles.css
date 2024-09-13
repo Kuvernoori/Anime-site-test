@@ -21,7 +21,12 @@ body {
 header h1 {
     margin-bottom: 20px;
 }
-
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
 .signup-form {
     display: flex;
     flex-direction: column;

@@ -6,12 +6,7 @@ body {
     color: #333;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-}
+
 header {
     background-color: #00509e; 
     padding: 20px;
@@ -25,7 +20,12 @@ header h1 {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
 }
-
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
 
 nav ul {
     list-style: none;
